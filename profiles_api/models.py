@@ -44,7 +44,7 @@ class UserProfile( AbstractBaseUser, PermissionsMixin):
         """ retrive full name of user """
         return self.name
 
-    def get_sort_name(self):
+    def get_short_name(self):
         """ retrive full name of user """
         return self.name
 
